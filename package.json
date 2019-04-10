@@ -1,0 +1,18 @@
+{
+  "name": "fazan",
+  "description": "Контроль и управление радиопередатчиком ФАЗАН 19Р50",
+  "version": "0.0.2",
+  "private": true,
+  "dependencies": {
+    "crc": ">= 0.0.1",
+    "optimist": ">= 0.0.1",
+    "bitwise": ">= 0.0.1",
+    "console.table": ">= 0.0.1"
+  },
+  "author": "Aleksey Druzhinin <druzhinin@tuc.ans.aero>",
+  "phone": "+73452293860",
+  "bin": {
+    "fazan": "./app.js"
+  },
+  "pkg": { }
+}
