@@ -1,18 +1,32 @@
 {
   "name": "fazan",
   "description": "Контроль и управление радиопередатчиком ФАЗАН 19Р50",
-  "version": "0.0.2",
-  "private": true,
+  "version": "1.0.0",
   "dependencies": {
     "crc": ">= 0.0.1",
     "optimist": ">= 0.0.1",
     "bitwise": ">= 0.0.1",
     "console.table": ">= 0.0.1"
   },
-  "author": "Aleksey Druzhinin <druzhinin@tuc.ans.aero>",
-  "phone": "+73452293860",
-  "bin": {
-    "fazan": "./app.js"
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
   },
-  "pkg": { }
+  "author": "Aleksey Druzhinin <druzhinin@ans.aero>",
+  "phone": "+79058252502",
+  "bin": {
+    "fazan19": "./app.js"
+  },
+  "main": "./app.js",
+  "pkg": {},
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drudrum/fazan_19P50.git"
+  }
 }

@@ -2,9 +2,12 @@
 Это консольное приложение для управления радиостанцией Фазан 19Р50/19Р5
 
 ## Установка и запуск app.js
-* Установите **nodejs**
-* Установите модули коммандой `npm install`
-* `node app.js --help`
+```
+git clone https://github.com/drudrum/fazan_19P50.git
+cd fazan_19P50
+npm install --production
+node app.js --help
+```
 
 **Доступые опции:**
 - --connect <ip/host>:<port> порта. Пример: 192.168.127.254:4002
