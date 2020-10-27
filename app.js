@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /* global debugLevel */
 const crc = require('crc')
 const bitwise = require('bitwise')

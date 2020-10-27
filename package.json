@@ -1,7 +1,7 @@
 {
   "name": "fazan19",
   "description": "Контроль и управление радиопередатчиком ФАЗАН 19Р50",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "crc": ">= 0.0.1",
     "optimist": ">= 0.0.1",

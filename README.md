@@ -8,6 +8,12 @@ cd fazan_19P50
 npm install --production
 node app.js --help
 ```
+или
+```
+sudo npm i -g fazan19
+fazan19 --help
+```
+
 
 **Доступые опции:**
 - --connect <ip/host>:<port> порта. Пример: 192.168.127.254:4002
